@@ -6,9 +6,9 @@ int main(int argc, char const *argv[])
 
     printf ("Introduza o valor que pretende triplicar: ");
     scanf("%d" , &n);
-    p = n * k;
+    p = n * 3;
     
-    printf ("O triplo de %d é %d", n, p);
+    printf ("O triplo de %d é %d.", n, p);
 
     return 0;
 }
